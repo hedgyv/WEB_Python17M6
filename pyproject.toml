@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-python17m6"
+version = "0.1.0"
+description = ""
+authors = ["hedgyv <hedgy85@hotmail.com>"]
+license = "web_db"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2 = "^2.9.9"
+faker = "^20.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
